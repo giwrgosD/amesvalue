@@ -5,3 +5,7 @@ __pycache__/
 *.pyc
 
 .idea/
+
+# Local console logs
+reports/basic_inspection_console.txt
+reports/evaluation_console.txt
