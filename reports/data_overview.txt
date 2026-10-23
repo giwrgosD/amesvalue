@@ -1,0 +1,129 @@
+Shape: (1460, 81)
+Exact duplicate rows: 0
+Duplicates excluding Id: 0
+
+Columns and types:
+Id                 int64
+MSSubClass         int64
+MSZoning          object
+LotFrontage      float64
+LotArea            int64
+Street            object
+Alley             object
+LotShape          object
+LandContour       object
+Utilities         object
+LotConfig         object
+LandSlope         object
+Neighborhood      object
+Condition1        object
+Condition2        object
+BldgType          object
+HouseStyle        object
+OverallQual        int64
+OverallCond        int64
+YearBuilt          int64
+YearRemodAdd       int64
+RoofStyle         object
+RoofMatl          object
+Exterior1st       object
+Exterior2nd       object
+MasVnrType        object
+MasVnrArea       float64
+ExterQual         object
+ExterCond         object
+Foundation        object
+BsmtQual          object
+BsmtCond          object
+BsmtExposure      object
+BsmtFinType1      object
+BsmtFinSF1         int64
+BsmtFinType2      object
+BsmtFinSF2         int64
+BsmtUnfSF          int64
+TotalBsmtSF        int64
+Heating           object
+HeatingQC         object
+CentralAir        object
+Electrical        object
+1stFlrSF           int64
+2ndFlrSF           int64
+LowQualFinSF       int64
+GrLivArea          int64
+BsmtFullBath       int64
+BsmtHalfBath       int64
+FullBath           int64
+HalfBath           int64
+BedroomAbvGr       int64
+KitchenAbvGr       int64
+KitchenQual       object
+TotRmsAbvGrd       int64
+Functional        object
+Fireplaces         int64
+FireplaceQu       object
+GarageType        object
+GarageYrBlt      float64
+GarageFinish      object
+GarageCars         int64
+GarageArea         int64
+GarageQual        object
+GarageCond        object
+PavedDrive        object
+WoodDeckSF         int64
+OpenPorchSF        int64
+EnclosedPorch      int64
+3SsnPorch          int64
+ScreenPorch        int64
+PoolArea           int64
+PoolQC            object
+Fence             object
+MiscFeature       object
+MiscVal            int64
+MoSold             int64
+YrSold             int64
+SaleType          object
+SaleCondition     object
+SalePrice          int64
+
+Raw numeric/categorical counts (includes Id/target):
+(38, 43)
+
+Missing values:
+LotFrontage      259
+Alley           1369
+MasVnrType         8
+MasVnrArea         8
+BsmtQual          37
+BsmtCond          37
+BsmtExposure      38
+BsmtFinType1      37
+BsmtFinType2      38
+Electrical         1
+FireplaceQu      690
+GarageType        81
+GarageYrBlt       81
+GarageFinish      81
+GarageQual        81
+GarageCond        81
+PoolQC          1453
+Fence           1179
+MiscFeature     1406
+
+Target summary (USD):
+count      1460.000000
+mean     180921.195890
+std       79442.502883
+min       34900.000000
+25%      129975.000000
+50%      163000.000000
+75%      214000.000000
+max      755000.000000
+
+Basic target distribution: counts in five equal-width bins:
+(34179.899000000005, 178920.0]    871
+(178920.0, 322940.0]              508
+(322940.0, 466960.0]               70
+(466960.0, 610980.0]                7
+(610980.0, 755000.0]                4
+
+Removed: Id, SaleType, SaleCondition, MoSold, YrSold

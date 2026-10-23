@@ -1,0 +1,39 @@
+{
+  "selected_model": "Random Forest + two features (tuned)",
+  "cv_metrics": {
+    "Model": "Random Forest + two features (tuned)",
+    "Phase": 12,
+    "MAE": 17720.20862419629,
+    "MAE_std": 1113.6674125973104,
+    "RMSE": 29832.90440837769,
+    "RMSE_std": 5504.785093436097,
+    "R2": 0.8481292885209019,
+    "R2_std": 0.04773662775686085
+  },
+  "tuning_best_params": {
+    "model__max_features": 0.7,
+    "model__min_samples_leaf": 2
+  },
+  "rule": "Minimum CV RMSE; within 1%, prefer linear family, then no engineered features, then raw target.",
+  "reason": "Selection uses training CV only. MAE, R2 and fold SD are saved for context; SD is not a confidence interval.",
+  "final_parameters": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "criterion": "squared_error",
+    "max_depth": null,
+    "max_features": 0.7,
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 2,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 100,
+    "n_jobs": 2,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  }
+}
